@@ -16,7 +16,10 @@ import pandas as pd
 
 ---
 
-### Read data from a CSV file (https://raw.githubusercontent.com/jackiekazil/data-wrangling/master/data/chp3/data-text.csv)
+### Read data from a CSV file
+```python
+df = pd.read_csv('https://raw.githubusercontent.com/jackiekazil/data-wrangling/master/data/chp3/data-text.csv')
+```
 
 ##### 1. Get the Metadata from the above file
 ```python
